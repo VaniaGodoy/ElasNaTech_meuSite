@@ -1,0 +1,43 @@
+.topo{
+    padding: 8px 0;
+    position: fixed;
+    font-size: 12px;    
+}
+.nav-link{
+    color: #102739;    
+}
+.nav-link:hover{    
+    color: #6f5df8;
+    
+}
+
+body{
+    background-color:#f6f7f8;
+    font-family: 'ui-sans' , sans-serif;
+    
+}
+
+
+h1{
+    color:  #333;
+    font-size: 20px;
+    
+}
+
+label{
+    text-decoration: none;
+    color:  #333;
+    font-size: 13px;
+    text-align: justify;  
+}
+
+footer{
+    padding: 5px 0;
+    position: relative;
+
+}
+.rodape{    
+   font-size: 10px;
+   color: #a6a6a6;
+} 
+
