@@ -7,16 +7,20 @@
     color: #102739;    
 }
 .nav-link:hover{    
-    color: #6f5df8;
-    
+    color: #6f5df8;    
 }
+a.img{
+    text-decoration: none;
+    font-size: 12px;
+    text-transform:uppercase;      
+}
+a{color:#5263df;font-weight: bold;}
 
 body{
     background-color:#f6f7f8;
     font-family: 'ui-sans' , sans-serif;
     
 }
-
 
 h1{
     color:  #333;
