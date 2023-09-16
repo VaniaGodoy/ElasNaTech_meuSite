@@ -9,12 +9,6 @@
 .nav-link:hover{    
     color: #6f5df8;    
 }
-a.img{
-    text-decoration: none;
-    font-size: 12px;
-    text-transform:uppercase;      
-}
-a{color:#5263df;font-weight: bold;}
 
 body{
     background-color:#f6f7f8;
