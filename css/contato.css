@@ -12,28 +12,25 @@
 }
 
 body{
-    background-color:#f6f7f8;
-    font-family: 'ui-sans' , sans-serif;
-    
+    background-color:#037bd7;
+    font-family: 'ui-sans' , sans-serif;    
 }
 
 
-h1{
-    color:  #333;
-    font-size: 21px;
-    
+h3{
+    color: #d5d9fc; 
 }
+
 h6{
-    color:  #333;
-    font-size: 12px;
-    
+    color: #d5d9fc;
+    font-size: 12px;    
 }
 
 label{
     text-decoration: none;
-    color:  #333;
+    color: #d5d9fc;
     font-size: 13px;
-    text-align: justify;  
+    text-align: justify; 
 }
 
 footer{
