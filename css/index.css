@@ -3,6 +3,10 @@
     position: fixed;
     font-size: 12px;    
 }
+.logo{
+    width:160px;
+}
+
 .nav-link{
     color: #102739;    
 }
@@ -16,26 +20,26 @@ body{
     font-family: 'ui-sans' , sans-serif;    
 }
 
-#carrossel{     
-    width: 480px;
-    height: auto;            
-}
-
-h6, p{
+h3, h5{
+    text-decoration: none;
     color: #d5d9fc;
-    font-size: 15px;
+    font-size: 13px;
+    text-align: justify;  
+      
+}
+.foto-baner{
+    width: 25rem;
 }
 
-h5{
+.text{
+    text-decoration: none;
     color: #d5d9fc;
-    font-size: 15px;
+    font-size: 13px;
+    text-align: justify;  
 }
-
-
-.faleConosco{
-    background-color: #bcb8f6;
+.foto-slide{
+    width: 55vh;
 }
-
 footer{
     padding: 5px 0;
     position: relative;
@@ -45,6 +49,3 @@ footer{
    font-size: 10px;
    color: #a6a6a6;
 } 
-
-
-

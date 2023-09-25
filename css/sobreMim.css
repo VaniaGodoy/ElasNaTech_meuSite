@@ -3,6 +3,10 @@
     position: fixed;
     font-size: 12px;    
 }
+.logo{
+    width:160px;
+}
+
 .nav-link{
     color: #102739;    
 }
