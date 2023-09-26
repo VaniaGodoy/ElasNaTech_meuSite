@@ -24,16 +24,16 @@ body{
 .card-titlePricipal {
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 35px;
+    font-size: 1.8rem; 
     text-align: justify; 
-    font-weight: bolder;
+    font-weight: bold;
     
 }
 
 .card-title{
     text-decoration: none;
-    color: #080b99;
-    font-size: 16px;
+    color: #2224a0;
+    font-size: 1.0rem;
     text-align: justify; 
     font-weight: bold;
 }
@@ -41,7 +41,7 @@ body{
 .card-text{
     text-decoration: none;
     color:   #d5d9fc;
-    font-size: 12px;
+    font-size: 0.8rem;
     text-align: justify;
     font-weight: lighter;  
 }
