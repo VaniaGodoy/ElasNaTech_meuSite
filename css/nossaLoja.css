@@ -21,15 +21,17 @@ body{
 }
 
 
-h1{
-    color:  #333;
-    font-size: 21px;
+h2{
+    text-decoration: none;
+    color: #d5d9fc;
+    font-size: 35px;
     
 }
+
 h5{
     text-decoration: none;
-    color:  #333;
-    font-size: 15px;
+    color: #d5d9fc;
+    font-size: 14px;
     text-align: justify; 
     font-weight: bold;
 }
