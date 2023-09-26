@@ -8,11 +8,11 @@
 }
 
 .nav-link{
-    color: #102739;    
+    color: #4d4d50;    
 }
+
 .nav-link:hover{    
-    color: #6f5df8;
-    
+    color: #7a6af5;    
 }
 
 body{
@@ -21,27 +21,33 @@ body{
 }
 
 
-h2{
+.card-titlePricipal {
     text-decoration: none;
     color: #d5d9fc;
     font-size: 35px;
+    text-align: justify; 
+    font-weight: bolder;
     
 }
 
-h5{
+.card-title{
     text-decoration: none;
-    color: #d5d9fc;
-    font-size: 14px;
+    color: #080b99;
+    font-size: 16px;
     text-align: justify; 
     font-weight: bold;
 }
 
-
-p{
+.card-text{
     text-decoration: none;
-    color:  #333;
-    font-size: 13px;
-    text-align: justify;  
+    color:   #d5d9fc;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: lighter;  
+}
+
+#icon{
+    background-color: #84c4f6;
 }
 
 footer{

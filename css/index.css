@@ -8,11 +8,11 @@
 }
 
 .nav-link{
-    color: #102739;    
+    color: #4d4d50;    
 }
+
 .nav-link:hover{    
-    color: #6f5df8;
-    
+    color: #7a6af5;    
 }
 
 body{
@@ -20,17 +20,17 @@ body{
     font-family: 'ui-sans' , sans-serif;    
 }
 
-h2{
+.title-h5{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 13px;
+    font-size: 0.8rem;
     text-align: justify;       
 }
 
-h5{
+.title-h2{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 19px;
+    font-size: 1.1rem;
     text-align: justify;       
 }
 
@@ -41,13 +41,18 @@ h5{
 .text{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 16px;
+    font-size: 1.0rem;
     text-align: justify; 
     letter-spacing: 1px; 
 }
 .foto-slide{
     width: 55vh;
 }
+
+#icon{
+    background-color: #84c4f6;
+}
+
 footer{
     padding: 5px 0;
     position: relative;

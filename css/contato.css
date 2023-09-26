@@ -9,11 +9,11 @@
 }
 
 .nav-link{
-    color: #102739;    
+    color: #4d4d50;    
 }
+
 .nav-link:hover{    
-    color: #6f5df8;
-    
+    color: #7a6af5;    
 }
 
 body{
@@ -22,19 +22,22 @@ body{
 }
 
 
-h3{
-    color: #d5d9fc; 
+.text-title{
+    color: #d5d9fc;
+    font-size: 1.4rem;
+    text-align: justify; 
 }
 
-h6{
+.text-subTitle{
     color: #d5d9fc;
-    font-size: 12px;    
+    font-size: 1.0rem; 
+    text-align: justify;       
 }
 
 label{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 13px;
+    font-size: 0.9rem;
     text-align: justify; 
 }
 

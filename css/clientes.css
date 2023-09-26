@@ -8,11 +8,11 @@
 }
 
 .nav-link{
-    color: #102739;    
+    color: #4d4d50;    
 }
+
 .nav-link:hover{    
-    color: #6f5df8;
-    
+    color: #7a6af5;    
 }
 
 body{
@@ -20,17 +20,15 @@ body{
     font-family: 'ui-sans' , sans-serif;    
 }
 
-
-
-h3{
+.text-title{
     color: #d5d9fc;
-      
+    font-size: 1.8rem;  
 }
 
 label{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 13px;
+    font-size: 0.9rem;
     text-align: justify;  
 }
 
