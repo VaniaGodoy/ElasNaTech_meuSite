@@ -26,16 +26,16 @@ body{
     color: #d5d9fc;
     font-size: 1.8rem; 
     text-align: justify; 
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 
 .card-title{
     text-decoration: none;
-    color: #2224a0;
+    color: #ededfc;
     font-size: 1.0rem;
     text-align: justify; 
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .card-text{
@@ -43,7 +43,7 @@ body{
     color:   #d5d9fc;
     font-size: 0.8rem;
     text-align: justify;
-    font-weight: lighter;  
+    font-weight: bold;  
 }
 
 #icon{
