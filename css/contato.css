@@ -24,7 +24,7 @@ body{
 
 .text-title{
     color: #d5d9fc;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     text-align: justify; 
 }
 
@@ -47,7 +47,6 @@ footer{
 
 }
 .rodape{    
-   font-size: 10px;
-   color: #a6a6a6;
-} 
-
+    font-size: 0.6rem;
+    color: #a6a6a6;
+ } 

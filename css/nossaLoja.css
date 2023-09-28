@@ -46,17 +46,13 @@ body{
     font-weight: bold;  
 }
 
-#icon{
-    background-color: #84c4f6;
-}
-
 footer{
     padding: 5px 0;
     position: relative;
 
 }
-.rodape{    
-   font-size: 10px;
-   color: #a6a6a6;
-} 
 
+.rodape{    
+    font-size: 0.6rem;
+    color: #a6a6a6;
+ } 

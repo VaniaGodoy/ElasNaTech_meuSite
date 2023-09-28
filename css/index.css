@@ -23,34 +23,31 @@ body{
 .title-h5{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 0.8rem;
-    text-align: justify;       
+    font-size: 0.9rem;               
 }
 
 .title-h2{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 1.1rem;
-    text-align: justify;       
+    font-size: 2.0rem;
+    text-align: justify;           
 }
 
 .foto-baner{
-    width: 25rem;
+    width: 26rem;
 }
 
 .text{
     text-decoration: none;
     color: #d5d9fc;
-    font-size: 1.0rem;
-    text-align: justify; 
-    letter-spacing: 1px; 
-}
-.foto-slide{
-    width: 55vh;
+    font-size: 0.9rem;
+    text-align:justify; 
+    letter-spacing: 0.2vh; 
+    font-style: italic;    
 }
 
-#icon{
-    background-color: #84c4f6;
+.btn{
+    color: #0e1b25;
 }
 
 footer{
@@ -58,7 +55,8 @@ footer{
     position: relative;
 
 }
+
 .rodape{    
-   font-size: 10px;
-   color: #a6a6a6;
-} 
+    font-size: 0.6rem;
+    color: #a6a6a6;
+ } 
