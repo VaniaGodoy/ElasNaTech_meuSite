@@ -2,10 +2,10 @@
 <html lang="pt-br">
 
 <head>
-  <!-- Required meta tags -->
+  <!--meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">  
-  <link rel="icon" href="./img/favicon.png" type="image/x-icon">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./img/favicon.png" type="image/x-icon">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <!-- barra de navegação Inicio-->
   <header class="topo shadow-sm sticky-top bg-light justify-content-end container-fluid">
     <div class="container-fluid">
       <div class="row">
@@ -27,7 +28,8 @@
         <div class="col-9 px-xxl-5 fw-bold">
           <nav class="navbar navbar-light d-lg-none justify-content-end">
             <div class="container-fluid justify-content-end">
-              <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+              <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuMobile">
                 <span class="navbar-toggler-icon"></span>
               </button>
             </div>
@@ -56,19 +58,23 @@
                 <a class="nav-link" href="./trabalheConosco.html">Trabalhe Conosco</a>
                 <a class="nav-link" href="./sobreMim.html">Sobre Mim</a>
                 <a class="bi bi-whatsapp text-success px-2" style="font-size: 30px;" href="https://wa.me/5511985318525"
-                  target="_blank"></a> 
-              </nav>                 
+                  target="_blank"></a>
+              </nav>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </header>  
-  <main>   
-    <section class="pt-4" id="topo">
-    <div> 
-      <h3 class="text-title mt-2 pt-5 text-center fw-bold">Cadastre seu Curriculum</h3>
-    </div>    
+  </header>
+
+  <!--inicio do formulario-->
+  <main>
+    <section class="pt-4 pb-4" id="topo">
+      <div class="col-10 pt-3 pb-1 container-fluid justify-content-center">
+        <div class="container justify-content-center mt-3 pt-2">
+          <h3 class="text-title mt-3 pt-3 text-center fw-bold">Trabalhe Conosco</h3>
+          <p class="text text-center pt-1">Venha fazer parte da nossa equipe de colaboradores. Cadastre-se!</p>
+        </div>
         <div class="col-11 container justify-content-center">
           <form class="row g-2">
             <div class="col-md-5">
@@ -76,34 +82,36 @@
               <input type="text" class="form-control" id="name" required>
             </div>
             <div class="col-md-7">
-              <label for="sobrenome" class="form-label">Sobrenome:</label>
-              <input type="text" class="form-control" id="sobrenome" required>
+              <label for="name" class="form-label">Sobrenome:</label>
+              <input type="text" class="form-control" id="name" required>
             </div>
             <div class="col-md-4">
               <label for="date" class="form-label">Nascimento:</label>
               <input type="date" class="form-control" id="date" placeholder="00/00/0000" required>
             </div>
             <div class="col-md-4">
-              <label for="RG" class="form-label">RG:</label>
-              <input type="number" class="form-control" id="RG" placeholder="00.000.000-0" required>
+              <label for="Rg" class="form-label">RG:</label>
+              <input type="number_format" class="form-control" id="Rg" pattern="\d{2}\.\d{3}\.\d{3}-\d{2}"
+              title="Digite o RG no formato nn.nnn.nnn-nn" placeholder="00.000.000-0" required>
             </div>
             <div class="col-md-4">
               <label for="CPF" class="form-label">CPF:</label>
-              <input type="number" class="form-control" id="CPF" placeholder="000.000.000-00" required>
+              <input type="number_format" class="form-control" id="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+              title="Digite o CPF no formato nnn.nnn.nnn-nn" placeholder="000.000.000-00" required>
             </div>
-  
-            <div class="col-12">
+
+            <div class="col-md-12">
               <label for="endereco" class="form-label">Endereço:</label>
               <input type="text" class="form-control" id="endereco" placeholder="Rua, Bairro, Numero" required>
             </div>
             <div class="col-md-4">
               <label for="cidade" class="form-label">Cidade:</label>
               <input type="text" class="form-control" id="cidade" required>
-  
+
             </div>
             <div class="col-md-4">
               <label for="estado" class="form-label">Estado:</label>
-  
+
               <select class="col-10 form-select" aria-label="Default select example" id="estado" required>
                 <option selected>Selecione</option>
                 <option value="ac">Acre</option>
@@ -135,32 +143,42 @@
                 <option value="to">Tocantins</option>
               </select>
             </div>
-  
+
             <div class="col-md-4">
-              <label for="Cep" class="form-label">Cep:</label>
-              <input type="number" class="form-control" id="Cep" required>
+              <label for="cep" class="form-label">Cep:</label>
+              <input type="number_format" class="form-control" id="cep" placeholder="00000-000" pattern="\d{5}\-\d{3}"
+              title="Digite o CEP no formato 00000-000" required>
+            </div>
+            
+            <div class="col-md-4">
+              
             </div>
             <div class="col-md-12">
               <label for="formacao" class="form-label">Formação:</label>
-              <textarea type="text" class="form-control" id="formacao" required></textarea>
+              <textarea type="text" class="form-control" id="formacao" rows="3" required></textarea>
 
               <label for="curso" class="form-label">Cursos:</label>
-              <textarea type="text" class="form-control" id="curso" required></textarea>              
-           </div>
-           <div class="mt-3 pb-2">
-              <button type="submit" class="btn btn-sm btn-success rounded">Enviar</button>
-              <button type="reset" class="btn btn-sm btn-danger rounded">Limpar</button> 
-          </div>              
-      </form>
-    </div>
-    <div class="text-end pt-2 pb-5 mb-3 px-4">
-      <a class="bi bi-arrow-up-circle-fill text-light rounded-4" title="Voltar ao topo" style="font-size: 25px;"
-      href="#topo"></a>         
-    </div>       
-  </section>
-  </main>
+              <textarea type="text" class="form-control" id="curso" rows="3" required></textarea> 
 
-  <!-- Footer -->
+              <label for="redeSociais" class="form-label">Rede Sociais:</label>
+              <textarea type="text" class="form-control" id="redeSociais" rows="3" required></textarea>              
+           </div>
+            <div class="mt-3 mb-5">
+              <button type="submit" class="btn btn-sm btn-success rounded">Enviar</button>
+              <button type="reset" class="btn btn-sm btn-danger rounded">Limpar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="text-end pt-1 pb-5 mb-1 px-4">
+        <a class="bi bi-arrow-up-circle-fill text-light rounded-4"  title="Voltar ao topo" style="font-size: 25px;"
+        href="#topo"></a>               
+      </div>       
+    </section>
+  </main>
+  <!-- fim do Formulario -->
+
+  <!-- Footer  Inicio -->
   <footer>
     <section class="shadow-sm bg-light fixed-bottom">
       <div class="row">
@@ -179,9 +197,13 @@
       </div>
     </section>
   </footer>
-  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!--Footer Fim -->
+
+  <!--Bootstrap Bundle with Popper JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
 </body>
+
 </html>

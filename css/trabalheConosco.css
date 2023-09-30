@@ -3,7 +3,6 @@
     position: fixed;
     font-size: 12px;    
 }
-
 .logo{
     width:160px;
 }
@@ -25,6 +24,12 @@ body{
     color: #d5d9fc;
     font-size: 1.8rem;  
 }
+.text{
+    color: #d5d9fc;
+    font-size: 1.0rem; 
+    text-align: justify;       
+}
+
 
 label{
     text-decoration: none;
@@ -38,8 +43,7 @@ footer{
     position: relative;
 
 }
-
 .rodape{    
-    font-size: 0.6rem;
-    color: #a6a6a6;
- } 
+   font-size: 0.6rem;
+   color: #a6a6a6;
+} 

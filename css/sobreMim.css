@@ -20,22 +20,24 @@ body{
     font-family: 'ui-sans' , sans-serif;    
 }
 
-h3{
-    color: #d5d9fc;    
-}
-
 .text-title{
+   text-decoration: none;
     color: #d5d9fc;
-    font-size: 1.4rem;
-    text-align: justify; 
+    font-size: 1.8rem; 
+    text-align: justify;   
 }
 
 .text{
-    text-decoration: none;
     color: #d5d9fc;
-    font-size: 0.9rem;
-    text-align: justify;
-}
+    font-size: 1.0rem; 
+    text-align: justify;  
+} 
+
+.textElas{
+    color: #d5d9fc;
+    font-size: 0.8rem; 
+    text-align: justify;  
+}       
 
 footer{
     padding: 5px 0;
