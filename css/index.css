@@ -34,7 +34,8 @@ body{
 }
 
 .foto-baner{
-    width: 26rem;
+    width: 25rem;
+    height: auto;
 }
 
 .text{
