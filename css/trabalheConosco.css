@@ -1,3 +1,4 @@
+*{margin:0; padding: 0;}
 .topo{
     padding: 8px 0;
     position: fixed;
@@ -21,21 +22,24 @@ body{
 }
 
 .text-title{
-    color: #d5d9fc;
-    font-size: 1.8rem;  
+    text-decoration: none;
+    color: #f1f2f7;
+    font-size: 4.5vh;
+    text-align: justify;  
 }
 .text{
-    color: #d5d9fc;
-    font-size: 1.0rem; 
-    text-align: justify;       
+    text-decoration: none;
+    color: #f1f2f7;
+    font-size: 1.9vh;
+    text-align:justify;            
 }
 
 
 label{
     text-decoration: none;
-    color: #d5d9fc;
-    font-size: 0.9rem;
-    text-align: justify;  
+    color: #f1f2f7;
+    font-size: 1.8vh;
+    text-align:justify;
 }
 
 footer{
@@ -43,7 +47,7 @@ footer{
     position: relative;
 
 }
+
 .rodape{    
-   font-size: 0.6rem;
-   color: #a6a6a6;
-} 
+    font-size: 1.4vh;    
+ } 

@@ -1,3 +1,4 @@
+*{margin:0; padding: 0;}
 .topo{
     padding: 8px 0;
     position: fixed;
@@ -22,31 +23,32 @@ body{
 
 .text-title{
    text-decoration: none;
-    color: #d5d9fc;
-    font-size: 1.8rem; 
-    text-align: justify;   
+    color: #f1f2f7;
+    font-size: 3.9vh; 
+    text-align: justify; 
+    font-style:oblique;  
 }
 
 .text{
-    color: #d5d9fc;
-    font-size: 1.0rem; 
-    text-align: justify;  
+    color: #f1f2f7;
+    font-size: 2.2vh; 
+    text-align: justify;
+    font-style:italic;  
 } 
 
 .textElas{
-    color: #d5d9fc;
-    font-size: 0.8rem; 
-    text-align: justify;  
+    color: #f1f2f7;
+    font-size: 1.8vh; 
+    text-align: justify;
+     
 }       
 
 footer{
     padding: 5px 0;
     position: relative;
-
 }
 
 .rodape{    
-    font-size: 0.6rem;
-    color: #a6a6a6;
+    font-size: 1.4vh;    
  } 
 

@@ -1,3 +1,4 @@
+*{margin:0; padding: 0;}
 .topo{
     padding: 8px 0;
     position: fixed;
@@ -23,25 +24,24 @@ body{
 
 .card-titlePricipal {
     text-decoration: none;
-    color: #d5d9fc;
-    font-size: 1.8rem; 
-    text-align: justify;   
+    color: #f1f2f7;
+    font-size: 4.5vh;
+    text-align: justify;    
 }
 
 .card-title{
     text-decoration: none;
-    color: #ededfc;
-    font-size: 1.0rem;
-    text-align: justify; 
-    font-weight: bolder;
+    color: #f1f2f7;
+    font-size: 2.3vh;   
+    font-weight: bold;
+    text-align:justify;            
 }
 
 .card-text{
     text-decoration: none;
-    color:   #d5d9fc;
-    font-size: 0.8rem;
-    text-align: justify;
-    font-weight: bold;  
+    color: #f1f2f7;
+    font-size: 1.8vh;
+    text-align:justify;
 }
 
 footer{
@@ -51,6 +51,5 @@ footer{
 }
 
 .rodape{    
-    font-size: 0.6rem;
-    color: #a6a6a6;
+    font-size: 1.4vh;    
  } 
