@@ -82,7 +82,7 @@
               <input type="text" class="form-control" id="name" required>
             </div>
             <div class="col-md-7">
-              <label for="sobreNome class="form-label">Sobrenome:</label>
+              <label for="sobreNome" class="form-label">Sobrenome:</label>
               <input type="text" class="form-control" id="sobreNome" required>
             </div>
             <div class="col-md-4">
@@ -91,13 +91,13 @@
             </div>
             <div class="col-md-4">
               <label for="Rg" class="form-label">RG:</label>
-              <input type="number_format" class="form-control" id="Rg" pattern="\d{2}\.\d{3}\.\d{3}-\d{2}"
-              title="Digite o RG no formato nn.nnn.nnn-nn" placeholder="00.000.000-0" required>
+              <input type="text" class="form-control" id="Rg" pattern="\d{2}\.?\d{3}\.?\d{3}-?\d{2}"
+              title="Digite o RG com 9 digitos" placeholder="000000000" required>
             </div>
             <div class="col-md-4">
               <label for="CPF" class="form-label">CPF:</label>
-              <input type="number_format" class="form-control" id="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
-              title="Digite o CPF no formato nnn.nnn.nnn-nn" placeholder="000.000.000-00" required>
+              <input type="tex" class="form-control" id="CPF" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"
+              title="Digite o CPF com 11 digitos" placeholder="00000000000" required>
             </div>
 
             <div class="col-md-12">
@@ -112,7 +112,7 @@
             <div class="col-md-4">
               <label for="estado" class="form-label">Estado:</label>
 
-              <select class="col-10 form-select" aria-label="Default select example" id="estado" required>
+              <select class="col-md-4 form-select" aria-label="Default select example" id="estado" required>
                 <option selected>Selecione</option>
                 <option value="ac">Acre</option>
                 <option value="al">Alagoas</option>
@@ -146,29 +146,25 @@
 
             <div class="col-md-4">
               <label for="cep" class="form-label">Cep:</label>
-              <input type="number_format" class="form-control" id="cep" placeholder="00000-000" pattern="\d{5}\-\d{3}"
+              <input type="text" class="form-control" id="cep" placeholder="00000-000" pattern="\d{5}\-\d{3}"
               title="Digite o CEP no formato 00000-000" required>
             </div>
             
-            <div class="col-md-4">
-              
-            </div>
             <div class="col-md-12">
-              <label for="formacao" class="form-label">Formação:</label>
-              <textarea type="text" class="form-control" id="formacao" rows="3" required></textarea>
-            </div>  
-            <div class="col-md-12">
-              <label for="curso" class="form-label">Cursos:</label>
-              <textarea type="text" class="form-control" id="curso" rows="3" required></textarea> 
+              <label for="formacao" class="form-label">Formação-Curso:</label>
+              <textarea class="form-control" id="formacao" name="formacao" rows="3" required></textarea>
             </div>
-            <div class="col-md-12"> 
-              <label for="redeSociais" class="form-label">Rede Sociais:</label>
-              <textarea type="text" class="form-control" id="redeSociais" rows="3" required></textarea>              
-           </div>
+
+            <div class="col-md-12">
+              <label for="rede" class="form-label">Redes Sociais:</label>
+              <textarea class="form-control" id="rede" name="rede" rows="3" required></textarea>
+            </div>                      
+            
             <div class="mt-3 mb-5">
               <button type="submit" class="btn btn-sm btn-success rounded">Enviar</button>
               <button type="reset" class="btn btn-sm btn-danger rounded">Limpar</button>
             </div>
+            
           </form>
         </div>
       </div>

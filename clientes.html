@@ -90,13 +90,13 @@
             </div>
             <div class="col-md-4">
               <label for="Rg" class="form-label">RG:</label>
-              <input type="number_format" class="form-control" id="Rg" pattern="\d{2}\.\d{3}\.\d{3}-\d{2}"
-              title="Digite o RG no formato nn.nnn.nnn-nn" placeholder="00.000.000-0" required>
+              <input type="text" class="form-control" id="Rg" pattern="\d{2}\.?\d{3}\.?\d{3}-?\d{2}"
+              title="Digite o RG com 9 digitos" placeholder="000000000" required>
             </div>
             <div class="col-md-4">
               <label for="CPF" class="form-label">CPF:</label>
-              <input type="number_format" class="form-control" id="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
-              title="Digite o CPF no formato nnn.nnn.nnn-nn" placeholder="000.000.000-00" required>
+              <input type="tex" class="form-control" id="CPF" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"
+              title="Digite o CPF com 11 digitos" placeholder="00000000000" required>
             </div>
 
             <div class="col-md-12">
@@ -111,7 +111,7 @@
             <div class="col-md-4">
               <label for="estado" class="form-label">Estado:</label>
 
-              <select class="col-10 form-select" aria-label="Default select example" id="estado" required>
+              <select class="col-md-4 form-select" aria-label="Default select example" id="estado" required>
                 <option selected>Selecione</option>
                 <option value="ac">Acre</option>
                 <option value="al">Alagoas</option>
@@ -145,7 +145,7 @@
 
             <div class="col-md-4">
               <label for="cep" class="form-label">Cep:</label>
-              <input type="number_format" class="form-control" id="cep" placeholder="00000-000" pattern="\d{5}\-\d{3}"
+              <input type="text" class="form-control" id="cep" placeholder="00000-000" pattern="\d{5}\-\d{3}"
               title="Digite o CEP no formato 00000-000" required>
             </div>
             
