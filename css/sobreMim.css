@@ -21,20 +21,44 @@ body{
     font-family: 'ui-sans' , sans-serif;    
 }
 
+.eu{
+    width: 185px;
+    height: 175px;
+    margin-top: 2px;
+    border-width: 10px;
+    border-style:double;
+    border-color: rgb(59, 129, 251);
+    border-radius: 50%;
+}
+
 .text-title{
    text-decoration: none;
     color: #f1f2f7;
-    font-size: 3.9vh; 
-    text-align: justify; 
+    font-size: 3.2vh; 
     font-style:oblique;  
 }
 
 .text{
     color: #f1f2f7;
-    font-size: 2.2vh; 
-    text-align: justify;
-    font-style:italic;  
+    font-size: 2.2vh;
+    font-style:italic;    
 } 
+
+.text-eu{
+    color: #052761;
+    font-size: 4.8vh;
+    font-style:oblique;
+    font-weight: 600;   
+} 
+.text-eu::after {
+    content: '';
+    display: block;
+    width: 2.5em;
+    height: .09em;
+    background-color: #052761;
+    margin: 0 auto;
+    margin-top: .1em;
+}
 
 .textElas{
     color: #f1f2f7;
